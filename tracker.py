@@ -7,4 +7,3 @@ from os import system
 conf = load_conf()
 system(Template(MYSQL_TEMPLATE).substitute(dbname=conf['db_settings']['db'],
                                           user=conf['db_settings']['user']))
-

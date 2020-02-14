@@ -28,6 +28,7 @@ CREATE TABLE `files` (
   `last_time` int(32) DEFAULT NULL,
   `extension` varchar(5) DEFAULT NULL,
   `stats` json DEFAULT NULL,
+  `me` int(11) DEFAULT NULL,
   PRIMARY KEY (`path`)
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 /*!40101 SET character_set_client = @saved_cs_client */;
@@ -84,4 +85,4 @@ CREATE TABLE `keywords_extensions` (
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2020-02-14 21:37:16
+-- Dump completed on 2020-02-14 21:49:50
