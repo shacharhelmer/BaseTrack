@@ -1,0 +1,1 @@
+MYSQL_TEMPLATE = 'mysqldump -u $user -d $dbname > $dbname.sql'
