@@ -1,7 +1,9 @@
-db_settings:
-    host: '127.0.0.1'
-    user: 'root'
-    password: 'root'
-    db: 'python_test'
-    type: 'mysql'
-    conn_string: mysql://root@127.0.0.1:3306/python_test
+db:
+  host: '127.0.0.1'
+  user: 'root'
+  password: 'root'
+  db_name: 'python_test'
+  type: 'mysql'
+  conn_string: 'mysql://root@127.0.0.1:3306/python_test'
+tables:
+  no_drop_tables: False
