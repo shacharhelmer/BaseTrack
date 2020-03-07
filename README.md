@@ -1,4 +1,4 @@
-# dbTracker
+# BaseTrack
 
 Currently supported databases:
 - MySQL (schema and stored procedures at pre-commit)
