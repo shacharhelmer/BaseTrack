@@ -1,6 +1,0 @@
-DELIMITER //
-CREATE DEFINER=`skip-grants user`@`skip-grants host` PROCEDURE `me`(a int)
-BEGIN
-select 1;
-END//
-DELIMITER ;
