@@ -1,1 +1,3 @@
-MYSQL_TEMPLATE = 'mysqldump -u $user -d $dbname > $dbname.sql'
+MYSQL_SCHEMA_TEMPLATE = 'mysqldump -u $user -d $dbname > $dbname.sql'
+MYSQL_PROCEDURE_NAMES = 'SHOW PROCEDURE STATUS WHERE db = \'$dbname\''
+MYSQL_SHOW_CREATE_PROCEDURE_TEMPLATE = 'SHOW CREATE PROCEDURE $spname'
