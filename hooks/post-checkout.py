@@ -1,4 +1,5 @@
 from pre_commit_scripts.mysql_pre_commit import main as mysql_main
+from pre
 from config.setup import load_conf
 from os.path import abspath
 
